@@ -8,6 +8,7 @@
 		"/sample/": {
 		"Content-Type": "text/plain",
 		"X-Author": "nanashinogonbee"
+		}
 	},
 	"routes": {
 	"/login/": "login.html",
