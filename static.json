@@ -7,7 +7,7 @@
 		}
 	},
 	"routes": {
-	"/login/": "login.html",
-	"/sample/": "sample.html"
+	"/login/": "public_html/login.html",
+	"/sample/": "public_html/sample.html"
 	}
 }
