@@ -1,7 +1,12 @@
 {
 	"headers": {
-		"/*":{
-		"Content-Type": "text/plain; charset=UTF-8",
+		"/login/":{
+		"Content-Type": "text/plain; charset=UTF-8"
+		},
+		"/sample/":{
+		"Content-Type": "text/plain"
+		},
+		"/*/":{
 		"X-Author": "nanashinogonbee",
 		"Access-Control-Allow-Origin": "*"
 		}
