@@ -1,18 +1,17 @@
 {
 	"headers": {
-		"/login/":{
-		"Content-Type": "text/plain; charset=UTF-8"
-		},
-		"/sample/":{
-		"Content-Type": "text/plain"
-		},
-		"/*/":{
+		"/*/": {
 		"X-Author": "nanashinogonbee",
 		"Access-Control-Allow-Origin": "*"
+		},
+		"/login/": {
+		"X-Author": "nanashinogonbee",
+		"Access-Control-Allow-Origin": "*",
+		"Content-Type": "text/plain; charset=UTF-8"
+		},
+		"/sample/": {
+		"X-Author": "nanashinogonbee",
+		"Access-Control-Allow-Origin": "*",
+		"Content-Type": "text/plain"
 		}
-	},
-	"routes": {
-	"/login/": "login.html",
-	"/sample/": "sample.html"
-	}
 }
